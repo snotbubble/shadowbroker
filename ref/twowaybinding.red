@@ -8,7 +8,7 @@ Red [ needs 'view ]
 ;; [ ] assess need to store node ui in the node object.
 node: reactor [
 	name: "one"
-	ui: [ panel 120x50 50.50.55 loose [ field 60x30 name react [ face/text: node/name ] ] ]
+	;ui: [ panel 120x50 50.50.55 loose [ field 60x30 name react [ face/text: node/name ] ] ]
 ]
 n: []	;; nodes
 nl: []	;; instances of node ui to display
