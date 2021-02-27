@@ -5,6 +5,7 @@ Red [ needs 'view ]
 ;; [ ] new node inherits name of previous node
 ;; [ ] reset button not working when there's more than one node
 ;; [ ] select node yields correct array index
+;; [ ] assess need to store node ui in the node object.
 node: reactor [
 	name: "one"
 	ui: [ panel 120x50 50.50.55 loose [ field 60x30 name react [ face/text: node/name ] ] ]
